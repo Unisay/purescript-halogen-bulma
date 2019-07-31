@@ -20,6 +20,9 @@ navbarMenu = ClassName "navbar-menu"
 navbarStart :: ClassName
 navbarStart = ClassName "navbar-start"
 
+navbarEnd :: ClassName
+navbarEnd = ClassName "navbar-end"
+
 navbarBrand :: ClassName
 navbarBrand = ClassName "navbar-brand"
 

@@ -5,6 +5,9 @@ import Halogen (ClassName(..))
 isPrimary :: ClassName
 isPrimary = ClassName "is-primary"
 
+isLight :: ClassName
+isLight = ClassName "is-light"
+  
 isLink :: ClassName
 isLink = ClassName "is-link"
 

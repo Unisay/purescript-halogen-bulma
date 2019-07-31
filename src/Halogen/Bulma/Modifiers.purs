@@ -3,6 +3,7 @@ module Halogen.Bulma.Modifiers
   , module H
   , module S
   , module T
+  , isActive
   , isMobile
   ) where
 
@@ -13,4 +14,5 @@ import Halogen.Bulma.Modifiers.Helpers (isClearfix, isClipped, isInvisible, isHi
 import Halogen.Bulma.Modifiers.Syntax (isDanger, isInfo, isLarge, isLight, isLink, isLoading, isMedium, isOutlined, isPrimary, isSmall, isSuccess, isWarning) as S
 import Halogen.Bulma.Modifiers.Typography (hasTextCentered, hasTextJustified, hasTextLeft, hasTextRight, isCapitalized, isItalic, isLeft, isLowercase, isRight, isUppercase) as T
 
+isActive = ClassName "is-active" :: ClassName
 isMobile = ClassName "is-mobile" :: ClassName

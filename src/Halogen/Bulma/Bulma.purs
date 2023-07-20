@@ -5,6 +5,7 @@ module Halogen.Bulma
   , module Elements
   , module Form
   , module Level
+  , module Menu
   , module Modifiers
   , module Navbar
   , module Section
@@ -16,6 +17,7 @@ module Halogen.Bulma
 
 import Halogen.Bulma.Columns (column, columns, isCentered, isGapeless, isMultiline) as Columns
 import Halogen.Bulma.Columns.Sizes (isFourFifths, isHalf, isOneFifth, isOneQuarter, isOneThird, isThreeFifths, isThreeQuarters, isTwoFifths, isTwoThirds) as ColumnsSizes
+import Halogen.Bulma.Component.Menu (menu, menuLabel, menuList) as Menu
 import Halogen.Bulma.Component.Navbar (burger, isTransparent, navbar, navbarBrand, navbarBurger, navbarEnd, navbarItem, navbarLink, navbarMenu, navbarStart) as Navbar
 import Halogen.Bulma.Elements (content, icon, is1, is2, is3, is4, is5, is6, notification, subtitle, subtitle1, subtitle2, subtitle3, subtitle4, subtitle5, subtitle6, title, title1, title2, title3, title4, title5, title6) as Elements
 import Halogen.Bulma.Form (button, checkbox, control, field, hasIconsLeft, hasIconsRight, help, input, label, radio, select, textarea) as Form

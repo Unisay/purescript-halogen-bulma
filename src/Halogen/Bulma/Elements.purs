@@ -2,7 +2,6 @@ module Halogen.Bulma.Elements
   ( module Halogen.Bulma.Elements.Icon
   , module Halogen.Bulma.Elements.Title
   , content
-  , icon
   , notification
   ) where
 

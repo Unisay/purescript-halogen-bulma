@@ -1,5 +1,6 @@
 module Halogen.Bulma.Elements
-  ( module Halogen.Bulma.Elements.Title
+  ( module Halogen.Bulma.Elements.Icon
+  , module Halogen.Bulma.Elements.Title
   , content
   , icon
   , notification
@@ -7,8 +8,8 @@ module Halogen.Bulma.Elements
 
 import Halogen (ClassName(..))
 
+import Halogen.Bulma.Elements.Icon
 import Halogen.Bulma.Elements.Title
 
 content = ClassName "content" :: ClassName
-icon = ClassName "icon" :: ClassName
 notification = ClassName "notification" :: ClassName
